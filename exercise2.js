@@ -12,7 +12,13 @@ else{
 let a = 12;
 let b = 15;
 
-console.log(a > b );
+if (a > b) {
+    console.log("a is greater than b")
+}
+
+else {
+    console.log("a is not greater than b")
+}
 
 //question 8
 let Age = 16;

@@ -37,6 +37,12 @@ console.log(finalPrice);
 //Question 5
 let number = 12;
 
-console.log(number == 0)
-console.log(number > 0)
-console.log(number < 0)
+if(number == 0){
+    console.log("this number is zero")
+}
+else if (number > 0){
+    console.log("this is a positive number")
+}
+else {
+    console.log("this is a negative number")
+}
